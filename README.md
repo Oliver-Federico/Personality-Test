@@ -16,13 +16,15 @@ name: [IE number, SN number, TF number, JP number] = I or E, S or N, T or F, J o
 * The SN number is precentage of iNtution that the person is. The closer to 100 the more Intution they have, if they are less than 50 they are more Sensing.
 * The TF number is precentage of feeling that the person is. The closer to 100 the more feeling they are, if they are less than 50 they are more thinking.
 * The JP number is precentage of preceiving that the person is. The closer to 100 the more preceiving they are, if they are less than 50 they are more judging.
-For all of these categorys if the number is 50 than an X will he displayed.
+For all of these categorys if the number is 50 than an X will he displayed meaning they are equally both.
 
 Real example:
 
 Erin Blake: [78, 37, 61, 35] = ISFJ
 
 Ben Carlson: [46, 45, 23, 90] = ESTP
+
+Terry McClintic: [50, 37, 12, 58] = XSTP
 
 
 
