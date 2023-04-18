@@ -26,7 +26,7 @@ The output result of this is put at the last character after the equal sign. The
 
 For all of these categorys if the number is 50 than an X will he displayed in the output meaning they are equally both.
 
-Real example:
+##### Real example:
 
 Erin Blake: [78, 37, 61, 35] = ISFJ
 
