@@ -13,14 +13,18 @@ The output.txt file is the file that has the test results. They are formated in 
 name: [IE number, SN number, TF number, JP number] = I or E, S or N, T or F, J or P
 
 The IE number is precentage of introvert that the person is. The closer to 100 the more introverted they are, if they are less than 50 they are more extroverted.
+The output result of this is put at the first character after the equal sign. The characer will be abbreviated (Introverted: I, Extroverted: E)
 
 The SN number is precentage of iNtution that the person is. The closer to 100 the more Intution they have, if they are less than 50 they are more Sensing.
+The output result of this is put at the second character after the equal sign. The characer will be abbreviated (Sensing: S, iNtuition: N)
 
 The TF number is precentage of feeling that the person is. The closer to 100 the more feeling they are, if they are less than 50 they are more thinking.
+The output result of this is put at the third character after the equal sign. The characer will be abbreviated (Thinking: T, Feeling: F)
 
 The JP number is precentage of preceiving that the person is. The closer to 100 the more preceiving they are, if they are less than 50 they are more judging.
+The output result of this is put at the last character after the equal sign. The characer will be abbreviated (Judging: J, Preceiving: P)
 
-For all of these categorys if the number is 50 than an X will he displayed meaning they are equally both.
+For all of these categorys if the number is 50 than an X will he displayed in the output meaning they are equally both.
 
 Real example:
 
