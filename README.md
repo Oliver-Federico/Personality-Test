@@ -15,6 +15,7 @@ name: [IE number, SN number, TF number, JP number] = I or E, S or N, T or F, J o
 Real example:
 
 Erin Blake: [78, 37, 61, 35] = ISFJ
+
 Ben Carlson: [46, 45, 23, 90] = ESTP
 
 * The IE number is precentage of introvert that the person is. The closer to 100 the more introverted they are, if they are less than 50 they are more extroverted.
