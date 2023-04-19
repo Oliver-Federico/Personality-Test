@@ -62,6 +62,9 @@ line 5: Theo Gia
 
 line 6: bb-bbaaa--aa-bba-babbaaaaabababb-aabbaa-aaabaaaaaabb-bbbaababaa-aaabaa
 
+### USAnames.txt
+The USAnames.txt file is only used if you want to generate tests of non real people. It contains 1000 of the most popular male names in the United States and 1000 of the most popular female names in the United States.
+
 
 
 
