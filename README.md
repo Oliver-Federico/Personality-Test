@@ -26,7 +26,7 @@ The output result of this is put at the last character after the equal sign. The
 
 For all of these categorys if the number is 50 than an X will he displayed in the output meaning they are equally both.
 
-##### Real example:
+##### Real examples:
 
 Erin Blake: [78, 37, 61, 35] = ISFJ
 
@@ -34,7 +34,22 @@ Ben Carlson: [46, 45, 23, 90] = ESTP
 
 Terry McClintic: [50, 37, 12, 58] = XSTP
 
-### Personality.txt
+### personality.txt
+The personality.txt file is the file that takes the input tests that need to be processed by the PTARM. What you will input into the file goes as follwed:
+
+Line 1: Name
+
+Line 2: 70 Character long test answers 
+
+The name is as said, the name of the particpant you are processing the test of. 
+
+The 70 Character long test answers are the A, B, and -'s of the answers given. The -'s mean that the person did not answer the question.
+
+You can have as many tests processed at once as your computer can handle. 
+
+##### Real examples:
+
+
 
 
 
