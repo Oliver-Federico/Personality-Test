@@ -42,9 +42,7 @@ Line 1: Name
 Line 2: 70 Character long test answers 
 
 The name is as said, the name of the particpant you are processing the test of. 
-
 The 70 Character long test answers are the A, B, and -'s of the answers given. The -'s mean that the person did not answer the question.
-
 You can have as many tests processed at once as your computer can handle. 
 
 ##### Real examples:
