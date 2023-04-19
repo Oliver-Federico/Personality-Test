@@ -50,12 +50,12 @@ The first test entry must start on line one, if it is not on line one you will r
 
 ##### Real examples:
 
-Kenna Kashton\n
-bbaab-bbba-bbbbbbaaabbbabbbb-abbabbbaaabbbbbaaaa-bbababbb-baabab-abb-a\n
-Ramona Aila\n
-aaab-babbbaaabb-aabbbbbba-baaabababbbaba-baabaab-abbababab-ababaaabaa-\n
-Theo Gia\n
-bb-bbaaa--aa-bba-babbaaaaabababb-aabbaa-aaabaaaaaabb-bbbaababaa-aaabaa\n
+Kenna Kashton
+bbaab-bbba-bbbbbbaaabbbabbbb-abbabbbaaabbbbbaaaa-bbababbb-baabab-abb-a
+Ramona Aila
+aaab-babbbaaabb-aabbbbbba-baaabababbbaba-baabaab-abbababab-ababaaabaa-
+Theo Gia
+bb-bbaaa--aa-bba-babbaaaaabababb-aabbaa-aaabaaaaaabb-bbbaababaa-aaabaa
 
 
 
