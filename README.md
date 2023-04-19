@@ -46,7 +46,7 @@ The 70 Character long test answers are the A, B, and -'s of the answers given. T
 You can have as many tests processed at once as your computer can handle. 
 
 #### IMPORTANT:
-The first test entry must start on line one, if it is not on line one you will recieve an error with your answers.
+The first test entry must start on line one, if it is not on line one you will recieve an error with your output.txt file.
 
 ##### Real examples:
 
