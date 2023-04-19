@@ -7,6 +7,8 @@ The PTARM is a data analyzer that analyzes the data from the [Keirsey Personalit
 The first step in using the PTARM is understanding the files given. When you open the repository you are greeted 6 files (excluding README.md), 3 text files and 3 python files. Each file is very important for the operation of the PTARM.
 
 ### PTARM .txt files
+
+
 ### output.txt
 The output.txt file is the file that has the test results. They are formated in this way:
 
@@ -66,6 +68,8 @@ line 6: bb-bbaaa--aa-bba-babbaaaaabababb-aabbaa-aaabaaaaaabb-bbbaababaa-aaabaa
 The USAnames.txt file is only used if you want to generate tests of non real people. It contains 1000 of the most popular male names in the United States and 1000 of the most popular female names in the United States.
 
 
+
+## Python Scripts
 
 
 
