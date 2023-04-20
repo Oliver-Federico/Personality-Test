@@ -76,6 +76,7 @@ This file is the the main file you will be working with when using the PTARM. Th
 
 #### "main" function
   The main function is like most functions named main, it controls the overall function of the entire script running through different functions and output to get an     end result. Here is a simplifed version of the main functions steps:
+  
 *   Step 1. The function opens the personality.txt file and gets all the answers given in the text file and puts them in a list.
 *   Step 2. The function creates a variable that counts how many outputs have been completed (starts at 0).
 *   Step 3. The function opens the output file and deletes all prior data. If you don't want this open the file and delete lines 17,18, and 19.
@@ -87,6 +88,15 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 9. The function runs another function called output (see documentation below) which takes in all the data we just got from the other functions and outputs them into the output.txt file.
 *   Step 10. The function adds 2 to that output variable we made because each test and name takes up 2 lines of the personality.txt file.
 *   Step 11. The while loop continues until the outputs is less than the length of the personality.txt file.
+
+
+#### "processData" function
+  The processData function is a function that takes in all the test answers as a list and how many outputs have been completed to output the current test as a list of 10 groups of 7 and the current participants name. It does this in 4 simple steps:
+  
+*   Step 1. The current particpants name is found by looking at the all tests list and looking at the index of the how many outputs have been completed. This correlates to the line in which the name will be on for the test we are trying to process, giving us the current participants name.
+*   Step 2. The function then goes to the index that is one higher than the outputs completed to find the current test we are trying to process, storing it in a list.
+*   Step 3. The function will then split that list into 10 groups of 7.
+*   Step 4. The function outputs the name, and that list which is split in 10 groups of 7.
 
 
 
