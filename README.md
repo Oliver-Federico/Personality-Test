@@ -114,6 +114,16 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 2. The function outputs these letters.
 
 
+#### "output" function
+  The output function is what wraps up the entire process for each given test. It formats the results into a specific way then writes them onto the output.txt file. Steps:
+  
+*   Step 1. The output function will first format all the score numbers for each category into a list to add brackets around them (it's just easier). Example formating: "'[80, 23, 52, 78]'".
+*   Step 2. The function will then format the score letters starting first with the IE score letter, then the SN score letter, then the TF score letter, lastly the JP score letter. Formated as such: " = ENFJ"
+*   Step 3. Then the name is formated as such: "Lenard White: "
+*   Step 4. The function will then remove the " ' " from the category score list before writing this information all into output.txt and adding a new line.
+  
+
+
 
 
 
