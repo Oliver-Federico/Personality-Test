@@ -80,6 +80,11 @@ The main function is like most functions named main, it controls the overall fun
 * Step 2. The function creates a variable that counts how many outputs have been completed (starts at 0).
 * Step 3. The function opens the output file and deletes all prior data. If you don't want this open the file and delete lines 17,18, and 19.
 * Step 4. The function creates a while loop that only changes when the outputs is less than the length of the personality.txt document. Everything else in the main function is within this while loop.
+* Step 5. The function runs another function called processData (see documentation below) to get the current test participants name, and a list of current response we are looking at (the 70 character A, B, -'s) and splits it into 10 groups of 7.
+* Step 6. The function runs another function called calculations (see documentation below) which returns the number for the introvert or extrovert, sensing or intutition, thinking or feeling, and judging or preceiving.
+* Step 7. The function runs another function called analyise (see documentation below) to return the letter that corresponds to the score given for each category.
+* Step 8. The function converts the number score of each category into a string to be manipulated.
+* Step 9. The function runs another function called output (see documentation below)
 
 
 
