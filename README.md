@@ -84,7 +84,9 @@ The main function is like most functions named main, it controls the overall fun
 * Step 6. The function runs another function called calculations (see documentation below) which returns the number for the introvert or extrovert, sensing or intutition, thinking or feeling, and judging or preceiving.
 * Step 7. The function runs another function called analyise (see documentation below) to return the letter that corresponds to the score given for each category.
 * Step 8. The function converts the number score of each category into a string to be manipulated.
-* Step 9. The function runs another function called output (see documentation below)
+* Step 9. The function runs another function called output (see documentation below) which takes in all the data we just got from the other functions
+* Step 10. The function adds 2 to that output variable we made because each test and name takes up 2 lines of the personality.txt file.
+* Step 11. The while loop continues until the outputs is less than the length of the personality.txt file.
 
 
 
