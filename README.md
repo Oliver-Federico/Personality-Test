@@ -99,4 +99,12 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 4. The function outputs the name, and that list which is split in 10 groups of 7.
 
 
+#### "calculations" function
+  The calculations function will calculate the given particpants IE, SN, TF, and JP number and output it. Here are the steps it takes:
+  
+*   Step 1. The function will first create 4 groups of variables corresponding to the questions in each of the 10 groups of 7. The first group being the number of A, B, and -'s in the first index (index 0 because it is zero based) of each of the 10 groups of 7. We need this because is what will give us the particpants IE number. The second group corresponds to the number of A, B, and -'s in the index between 1 - 3 which correspond to the SN number. The third group corresponds to the number of A, B, and -'s in the index between 3 - 5 which correspond to the TF number. The second group corresponds to the number of A, B, and -'s in the index between 5 - 7 which correspond to the JP number.
+*   Step 2. We then convert those numbers into their proper precentages while excluding dashes (unanswered questions).
+*   Step 3. Then the function will output these values.
+
+
 
