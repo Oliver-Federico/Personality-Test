@@ -75,7 +75,11 @@ The USAnames.txt file is only used if you want to generate tests of non real peo
 This file is the the main file you will be working with when using the PTARM. This file takes in the data given in the personality.txt file and outputs the results into the output.txt file.
 
 #### "main" function
-The main function is like most functions named main, it controls the overall function of the entire script running through different functions and output to get an end result.
+The main function is like most functions named main, it controls the overall function of the entire script running through different functions and output to get an end result. Here is a simplifed version of the main functions steps:
+* Step 1. The function opens the personality.txt file and gets all the answers given in the text file and puts them in a list.
+* Step 2. The function creates a variable that counts how many outputs have been completed (starts at 0).
+* Step 3. The function opens the output file and deletes all prior data. If you don't want this open the file and delete lines 17,18, and 19.
+* Step 4. The function creates a while loop that only changes when the outputs is less than the length of the personality.txt document. Everything else in the main function is within this while loop.
 
 
 
