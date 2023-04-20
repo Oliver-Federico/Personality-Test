@@ -74,9 +74,7 @@ The USAnames.txt file is only used if you want to generate tests of non real peo
 ### AnalyiseData.py
 This file is the the main file you will be working with when using the PTARM. This file takes in the data given in the personality.txt file and outputs the results into the output.txt file.
 
-#### Processes of the script
-
-##### "main" Function
+#### "main" function
 The main function is like most functions named main, it controls the overall function of the entire script running through different functions and output to get an end result.
 
 
