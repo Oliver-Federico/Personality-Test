@@ -107,4 +107,15 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 3. Then the function will output these values.
 
 
+#### "analyise" function
+  The analyise function will analyise the different category numbers into their letter counterpart. It does this is 2 steps:
+
+*   Step 1. The function sends each of the category numbers through their corresponding lambda where the lambda makes the decision if the number is greater than 50, less than 50, or equal to 50. Then it outputs the correct letter for the category based on this answer.
+*   Step 2. The function outputs these letters.
+
+
+
+
+
+
 
