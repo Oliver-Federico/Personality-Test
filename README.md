@@ -76,7 +76,8 @@ This file is the the main file you will be working with when using the PTARM. Th
 
 #### Processes of the script
 
-
+##### "main" Function
+The main function is like most functions named main, it controls the overall function of the entire script running through different functions and output to get an end result.
 
 
 
