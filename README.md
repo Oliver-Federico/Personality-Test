@@ -134,6 +134,11 @@ The GRN.py script is used only if you want to generate random tests to use when 
 *   Step 5. The first and last name is then outputed into the personality.txt file.
 *   Step 6. The program will then generate another random number which will decide if the person being generated is more of a introvert, an extrovert, or in the middle.
 *   Step 7. A loop will run 70 times (70 questions) and each iteration will choose a random number corresponding to a more introverted, extroverted, or middle answer based on if the generated person is more introverted, extroverted, or in the middle.
+
+
+
+### unitTest.py
+The unitTest is for testing, if you would like to manipulate my code and test other result feel free to do so.
   
 
 
