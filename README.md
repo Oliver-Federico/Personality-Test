@@ -139,7 +139,7 @@ The GRN.py script is used only if you want to generate random tests to use when 
 
 ## Using the PTARM
 The PTRAM it is quite a simple process. The process goes as followed:
-*   First either import all of your tests you want to process into the personality.txt file, or generate a set amount of random participants by using the GRN.py file with command arguments (command arguments go as followed in your terminal if you want 100 participants:        python GRN.py 100). 
+*   First either import all of your tests you want to process into the personality.txt file, or generate a set amount of random participants by using the GRN.py file with command arguments (command arguments for if you want 100 random participants: python GRN.py 100). 
 *   Second run the AnalyiseData.py script to process the data.
 *   Third Find the data in the output.txt file for you to use. 
    
