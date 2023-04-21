@@ -121,7 +121,21 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 2. The function will then format the score letters starting first with the IE score letter, then the SN score letter, then the TF score letter, lastly the JP score letter. Formated as such: " = ENFJ"
 *   Step 3. Then the name is formated as such: "Lenard White: "
 *   Step 4. The function will then remove the " ' " from the category score list before writing this information all into output.txt and adding a new line.
+
+
+
+### GRN.py
+The GRN.py script is used only if you want to generate random tests to use when executing the AnalyiseData.py file. The steps of the GRN.py are quite simple:
+
+*   Step 1. The script will first look to see if you have put a number into the first command line, this number being the number of partipants you want to generate. If you do not enter anything into the command line the program will by default generate 20 different participants.
+*   Step 2. The script will then open the USAnames.txt file and get a list of all the names.
+*   Step 3. The personality.txt file will be opened before a loop with the length of the number of participants is used to run the remaining code.
+*   Step 4. The "random import" generates 2 numbers between 1 - 2001 then sets the first name to the index of the first random number in the names list, same with the second number and the last name.
+*   Step 5. The first and last name is then outputed into the personality.txt file.
+*   Step 6. The program will then generate another random number which will decide if the person being generated is more of a introvert, an extrovert, or in the middle.
+*   Step 7. A loop will run 70 times (70 questions) and each iteration will choose a random number corresponding to a more introverted, extroverted, or middle answer based on if the generated person is more introverted, extroverted, or in the middle.
   
+   
 
 
 
