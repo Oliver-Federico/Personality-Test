@@ -3,7 +3,7 @@ Welcome to PTARM (Personality Test Analyzer Read Me) in this read me file you wi
 
 The PTARM is a data analyzer that analyzes the data from the [Keirsey Personality Test](https://www.keirsey.com/). It scores you on 4 categorys, Introvert or extrovert (IE), Sensing or Intution (SE), Thinking or Feeling (TF), Judging or Preceiving (JP).
 
-## How to use the PTARM
+## How the the PTRAM works
 The first step in using the PTARM is understanding the files given. When you open the repository you are greeted 6 files (excluding README.md), 3 text files and 3 python files. Each file is very important for the operation of the PTARM.
 
 ### PTARM .txt files
@@ -135,6 +135,13 @@ The GRN.py script is used only if you want to generate random tests to use when 
 *   Step 6. The program will then generate another random number which will decide if the person being generated is more of a introvert, an extrovert, or in the middle.
 *   Step 7. A loop will run 70 times (70 questions) and each iteration will choose a random number corresponding to a more introverted, extroverted, or middle answer based on if the generated person is more introverted, extroverted, or in the middle.
   
+
+
+## Using the PTARM
+The PTRAM it is quite a simple process. The process goes as followed:
+*   First either import all of your tests you want to process into the personality.txt file, or generate a set amount of random participants by using the GRN.py file with command arguments (command arguments go as followed in your terminal if you want 100 participants: python GRN.py 100). 
+*   Second run the AnalyiseData.py script to process the data.
+*   Third Find the data in the output.txt file for you to use. 
    
 
 
