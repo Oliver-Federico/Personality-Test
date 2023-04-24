@@ -1,7 +1,7 @@
 # Personality Test Analyzer
 Welcome to PTARM (Personality Test Analyzer Read Me) in this read me file you will learn how to use the PTARM and how it works. 
 
-The PTARM is a data analyzer that analyzes the data from the [Keirsey Personality Test](https://www.keirsey.com/). It scores you on 4 categorys, Introvert or extrovert (IE), Sensing or Intution (SE), Thinking or Feeling (TF), Judging or Preceiving (JP).
+The PTARM is a data analyzer that analyzes the data from the [Keirsey Personality Test](https://www.keirsey.com/). It scores you on 4 categorys, Introvert or extrovert (IE), Sensing or Intution (SE), Thinking or Feeling (TF), Judging or Perceiving (JP).
 
 ## How the the PTRAM works
 The first step in using the PTARM is understanding the files given. When you open the repository you are greeted 6 files (excluding README.md), 3 text files and 3 python files. Each file is very important for the operation of the PTARM.
@@ -14,17 +14,17 @@ The output.txt file is the file that has the test results. They are formated in 
 
 name: [IE number, SN number, TF number, JP number] = I or E, S or N, T or F, J or P
 
-The IE number is precentage of introvert that the person is. The closer to 100 the more introverted they are, if they are less than 50 they are more extroverted.
+The IE number is percentage of introvert that the person is. The closer to 100 the more introverted they are, if they are less than 50 they are more extroverted.
 The output result of this is put at the first character after the equal sign. The characer will be abbreviated (Introverted: I, Extroverted: E)
 
-The SN number is precentage of iNtution that the person is. The closer to 100 the more Intution they have, if they are less than 50 they are more Sensing.
+The SN number is percentage of iNtution that the person is. The closer to 100 the more Intution they have, if they are less than 50 they are more Sensing.
 The output result of this is put at the second character after the equal sign. The characer will be abbreviated (Sensing: S, iNtuition: N)
 
-The TF number is precentage of feeling that the person is. The closer to 100 the more feeling they are, if they are less than 50 they are more thinking.
+The TF number is percentage of feeling that the person is. The closer to 100 the more feeling they are, if they are less than 50 they are more thinking.
 The output result of this is put at the third character after the equal sign. The characer will be abbreviated (Thinking: T, Feeling: F)
 
-The JP number is precentage of preceiving that the person is. The closer to 100 the more preceiving they are, if they are less than 50 they are more judging.
-The output result of this is put at the last character after the equal sign. The characer will be abbreviated (Judging: J, Preceiving: P)
+The JP number is percentage of perceiving that the person is. The closer to 100 the more perceiving they are, if they are less than 50 they are more judging.
+The output result of this is put at the last character after the equal sign. The characer will be abbreviated (Judging: J, Perceiving: P)
 
 For all of these categorys if the number is 50 than an X will he displayed in the output meaning they are equally both.
 
@@ -82,7 +82,7 @@ This file is the the main file you will be working with when using the PTARM. Th
 *   Step 3. The function opens the output file and deletes all prior data. If you don't want this open the file and delete lines 17,18, and 19.
 *   Step 4. The function creates a while loop that only changes when the outputs is less than the length of the personality.txt document. Everything else after this    step is completed within the while loop.
 *   Step 5. The function runs another function called processData (see documentation below) to get the current test participants name, and a list of current response   we are looking at (the 70 character A, B, -'s) and splits it into 10 groups of 7.
-*   Step 6. The function runs another function called calculations (see documentation below) which returns the number for the introvert or extrovert, sensing or intutition, thinking or feeling, and judging or preceiving.
+*   Step 6. The function runs another function called calculations (see documentation below) which returns the number for the introvert or extrovert, sensing or intutition, thinking or feeling, and judging or perceiving.
 *   Step 7. The function runs another function called analyise (see documentation below) to return the letter that corresponds to the score given for each category.
 *   Step 8. The function converts the number score of each category into a string to be manipulated.
 *   Step 9. The function runs another function called output (see documentation below) which takes in all the data we just got from the other functions and outputs them into the output.txt file.
@@ -103,7 +103,7 @@ This file is the the main file you will be working with when using the PTARM. Th
   The calculations function will calculate the given particpants IE, SN, TF, and JP number and output it. Here are the steps it takes:
   
 *   Step 1. The function will first create 4 groups of variables corresponding to the questions in each of the 10 groups of 7. The first group being the number of A, B, and -'s in the first index (index 0 because it is zero based) of each of the 10 groups of 7. We need this because is what will give us the particpants IE number. The second group corresponds to the number of A, B, and -'s in the index between 1 - 3 which correspond to the SN number. The third group corresponds to the number of A, B, and -'s in the index between 3 - 5 which correspond to the TF number. The second group corresponds to the number of A, B, and -'s in the index between 5 - 7 which correspond to the JP number.
-*   Step 2. We then convert those numbers into their proper precentages while excluding dashes (unanswered questions).
+*   Step 2. We then convert those numbers into their proper percentages while excluding dashes (unanswered questions).
 *   Step 3. Then the function will output these values.
 
 
